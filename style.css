@@ -1,0 +1,278 @@
+body { 
+	font-family: Jura;
+	margin: 0px;
+	font-weight: 700;
+}
+
+
+header {
+	padding-top: 50px;
+	background: linear-gradient(#AD9D9D, white);
+	height: 250px;
+}
+nav {
+	margin-top: 70px;
+}
+
+main { 
+	/*background-image: url("https://w.forfun.com/fetch/fd/fd5dd4e04b5a65807bac5c49ddd4c241.jpeg"); 
+	background-size: cover;
+	background-position: center;*/ 
+}
+footer { 
+	background: linear-gradient(white, #AD9D9D);
+	padding-bottom: 100px;
+}
+footer img{
+	height:350px;
+	width:350px;
+}
+footer div {
+	display: flex;
+	justify-content: space-around;
+}
+h1 { 
+	font-family: italiana;
+	text-align: center;
+	font-size: 45px;
+	margin-bottom: 0px;
+}
+header h3 {
+	font-style: jura;
+	text-align: center;
+	margin-top: 0px;
+}
+header h1::after {
+	content:url("картинки/башня.png");
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+nav a {
+	color: black;
+	text-decoration: none;
+	font-style: jure;
+	font-size: 26px;
+}
+nav a:hover {
+	color:#AC4545;
+}
+.menu {
+	/*background: url("https://cdn-icons-png.flaticon.com/512/7357/7357758.png") no-repeat 65% 40%;*/
+	
+} 
+.menu div {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 60px;
+	margin-top: 50px;
+}
+.menu img {
+	border-radius: 10px;
+}
+.restaurant img {
+	height:400px;
+	width:400px;
+}
+.dish {
+	height:210px;
+	width:250px;
+}
+.menu article {
+	background-color: #D9D9D9;
+	width:250px;
+	border-radius: 10px;
+}
+.menu p {
+	text-align: center;
+}
+.box {
+	margin-right: 10px;
+	margin-bottom: 15px;
+	float: right;
+}
+.prof {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.prof img {
+	border-radius:50%;
+	width: 300px;
+	height: 300px;
+	border: 5px solid #AC4545;
+	padding: 5px;
+}
+.prof div {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	text-align: center;
+	
+}
+.recomend p {
+	margin-left: 15px;
+}
+
+.recomend article {
+	display:flex;
+	margin-left: 60px;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+.recomend {
+	display:flex;
+	justify-content:center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.restaurant {
+	padding-top: 75px;
+	padding-bottom: 70px;
+	background: linear-gradient(white, 15%, #AC4545, 85%, white); 
+}
+.restaurant div {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.restaurant button {
+	width: 250px;
+	height: 40px;
+	border-radius: 20px;
+	background: linear-gradient(#AD9D9D, white); 
+	border: none;
+	color: black;
+	font-family: FreeMono, monospace;
+}
+h2 {
+	text-align: center;
+}
+.restaurant p {
+	text-align: center;
+}
+.reserved img {
+	height: 500px;
+}
+.reserved h2 {
+	margin-bottom: 50px;
+}
+.reserved button{ 
+	width: 150px;
+	height: 40px;
+	background: linear-gradient(#AC4545, 50%, white);
+	border-radius: 20px;
+	border: none;
+	color: black;
+	font-family: FreeMono, monospace;
+	margin-top: 20px;
+
+}
+.reserved article {
+	display: flex;
+}
+.reserved div {
+	margin-right: 100px;
+}
+input {
+	border: none;
+	background-color: #DCDCDC;
+	height: 30px;
+	width: 500px;
+}
+textarea {
+	background-color: #DCDCDC;
+	border: none;
+	width: 1100px;
+}
+form {
+	width: 1100px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+@keyframes anima1 {
+	0% {
+		box-shadow: 1px 1px 5px #F08080, 
+			-1px -1px 5px #F08080;
+	}
+	50% { 
+		box-shadow: 3px 2px 5px red,
+			-3px -2px 5px red;
+	}
+	100% {
+		box-shadow: 1px 1px 5px #F08080,
+			-1px -1px 5px #F08080;
+	}
+}
+.anima {
+		animation: anima1 1s infinite linear;
+}
+.film {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 60px;
+}
+.text {
+	padding-left: 20px;
+	margin-top: 70px;
+	margin-left: 80px;
+	height: 250px;
+	width: 500px;
+	border: 1px solid black;
+}
+.text p {
+	margin-bottom: 40px;
+}
+.text a {
+	background-color: #AC4545;
+	padding:10px;
+	border-radius: 20px;
+	color: white;
+	text-decoration: none;
+	margin-top: 15px;
+}
+.kart {
+	display: flex;
+}
+.film h3 {
+	margin-top: 25%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.kartinka1 {
+	position: relative;
+	left: 25%;
+}
+.kartinka2 {
+	position: relative;
+	left: 20%;
+	top:200px;
+}
+.kartinka3 {
+	position: relative;
+	right: 30%;
+	top: 380px;
+}
+.film2 {
+	height: 800px;
+}
+.strelka {
+	position: fixed;
+	height:60px;
+	left: 94%;
+	top: 90%;
+}
+.vopr {
+	position: fixed;
+	left: 94%;
+	top: 6%;
+}
+.calc {
+	position: fixed;
+	left: 91%;
+	top: 7%;
+	height:50px;
+}
